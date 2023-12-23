@@ -1,0 +1,24 @@
+
+
+
+StateA:
+    [
+    EventA: StateB,
+    EventB: StateC,
+    ]
+StateD:
+    [
+    nil
+    ]
+StateE:
+    [
+    EventC: StateW,
+    ]
+StateW:
+    [
+    EventD: StateG,
+    ]
+StateW:
+    [
+    EventE: StateH,
+    ]
